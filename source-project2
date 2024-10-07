@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 150px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            width: 50%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>About Me</h2>
+    <p>Hi! I am an artist with a passion for creating beautiful and functional projects. I have worked on several projects ranging from simple websites to complex applications.</p>
+    <img src="https://i.imgur.com/ZejrcIi.jpeg" alt="Profile Photo">
+    <p>[Fashion Artist]</p>
+</div>
+
+<footer>
+    <p>© 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 30px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .project {
+            margin-bottom: 30px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Projects</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="project">
+        <h2>Project #1</h2>
+        <img src="https://i.imgur.com/s97oXfk.jpeg" alt="Project 1 Screenshot">
+        <p> The centerpiece of the scene is a calm lake reflecting the soft colors of the sky. Along the water's edge, tall pine trees stand like sentinels, silhouetted against the fading light. The sky is a blend of soft blues and purples, merging into warm hues of pink and orange near the horizon, hinting at the last moments of a setting sun.
+
+In the distance, a range of mountains adds depth and grandeur to the scenery, their peaks softly fading into the sky. The atmosphere is peaceful and serene, evoking a sense of tranquility and connection with nature. It’s a perfect depiction of the quiet beauty that comes at the end of the day, with nature at its most serene and undisturbed state..</p>
+    </div>
+    
+    <div class="project">
+        <h2>Project #2</h2>
+        <img src="https://i.imgur.com/fMrQwuM.jpeg" alt="Project 2 Screenshot">
+        <p>showcases a vibrant and bustling street scene, likely in an urban market or festival setting. The street is lined with colorful lanterns hanging overhead, creating a warm and festive atmosphere. These lanterns come in various colors like red, orange, and yellow, casting a soft glow on the scene below.
+
+The street itself is filled with people walking, shopping, and enjoying the surroundings, adding a sense of energy and liveliness to the moment. Brightly lit shops and stalls line both sides of the street, selling various goods, possibly food, crafts, or other items typical of a street market.
+
+The architecture in the background suggests a traditional or historic style, with decorative facades and intricate detailing, giving the scene a blend of both cultural heritage and modern activity. The overall mood is festive, lively, and full of local charm, capturing a moment where people come together to enjoy the sights, sounds, and flavors of the street..</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            width: 100%;
+            max-width: 500px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <form action="#" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
+
